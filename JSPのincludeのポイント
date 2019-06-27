@@ -1,0 +1,7 @@
+※JSPのサイズを超える可能性があるため、動的includeで実装する。
+
+静的
+<%@ include file="../xxx/1.jsp" %>
+
+動的
+<jsp:include page="../xxx/1.jsp" />
